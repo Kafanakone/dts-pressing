@@ -13,7 +13,7 @@
   <div class="bg-dark">
     <div class="container">
       <div class="row">
-        <nav class="col navbar navbar-expand-lg navbar-dark">
+        <nav class="col navbar navbar-expand-lg navbar-dark font-weight-bold">
             <a class="navbar-brand mr-md-5" href="index.html" >
                 <img src="images/logo2.png" width="50" height="50" alt="logo Site"/>
                   Diallo & Toure Services
@@ -27,11 +27,11 @@
                 <a class="nav-link" href="index.html">Accueil</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" href="about.html">Qui sommes-nous ?</a>
+                <a class="nav-link" href="about.html">Qui sommes-nous ?</a>
               </li>
-              <li class="nav-item">
+              <!-- <li class="nav-item">
                 <a class="nav-link disabled" href="tarif.html">Tarifs</a>
-              </li>
+              </li> -->
               <li class="nav-item">
                 <a class="nav-link active" href="contact.html">Contactez-nous </a>
               </li>
@@ -41,9 +41,6 @@
       </div>
     </div>
   </div>
-  
-
-
     <!-- Contact Us Section -->
     <section class="contact-us mt-5">
         <div class="container">
@@ -72,7 +69,7 @@
                         <div class="form-group">
                             <textarea id="textear" class="form-control" name="message" placeholder="Votre message"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-success" onclick="EnvoieMail">Contact Now</button>
+                        <button type="submit" class="btn btn-success" onclick="EnvoieMail">Envoyer votre message</button>
                     </form>
                 </div>
 
@@ -91,6 +88,34 @@
             </div>
         </div>
     </section>
+    <div class="bg-dark mt-5 p-3">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <ul class="list-inline text-center">
+              <li class="list-inline-item text-white font-weight-bold"><a href=" " class="text-white font-weight-bold">&#169; DT Services</a></li>
+              <li class="list-inline-item"><a href=" " class="text-white">Tous droit réservé</a></li>
+              <li class="list-inline-item">&middot;</li>
+              <li class="list-inline-item"><a href=" " class="text-white"></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 text-center">
+              <a href="https://www.facebook.com/diallotoureservice" target="_blank"><img src="images/lgfb.png" alt="logo facebook" width="50" ></a>
+              <a href="https://wa.me/002250778734883" target="_blank"><img src="images/lgwhat.png" alt="logo whatsapp" width="40" ></a>
+              <a href="mailto:dt.services.0001@gmail.com" target="_blank"><img src="images/Gmail-logo.png" alt="logo gmail" width="50" ></a>
+                  
+              <p>
+                <img class=" text-center" src="images/lgcontact.png" alt="logo gmail" width="30" height="40">
+                <span class="align text-white font-weight-bold lead ">(+225) 0758917342/ 0778734883 <BR> 0586518556/ 2723414515</span>
+              </p>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    </div> 
     <script>
         function EnvoieMail(){
             window.open('mailto:test@example.com?subject=subject&body=body');
